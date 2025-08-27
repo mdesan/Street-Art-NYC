@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>NYC Street Art Map</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+        
+        
+        <body>
+        
+
+            <div id="header">NYC STREET ART MAP</div>
+            <div id="map"></div>
+            <input type="text" id="search-box" placeholder="Search artist or title..." />
+            
+            <div id="info-panel" class="hidden">
+             <span id="close-panel">×</span>
+             <br>
+             <br>
+             <img id="panel-img" src="" alt="Artwork Image">
+             <br>
+             <br>
+             <h2 id="panel-title"></h2>
+              <em><p id="panel-artist"></p></em>
+              <p id="panel-address"></p>
+            </div>
+
+            <script src="script.js"></script>
+            <script src="config.js"></script>
+            <script src="https://unpkg.com/@googlemaps/markerclusterer@2.0.15/dist/index.min.js"></script>
+
+
+            
+
+        </body>
+    </html> 
